@@ -10,10 +10,10 @@ Version des dépendances de cette application react :
 
 Pour créer une application react.js avec une version spécifique, exemple la version 16.8.6, exécutez ces commandes dans l'ordre : 
 ***
-**npm init react-app reactjs-to-do-list --scripts-version 3.0.0**
-**cd reactjs-to-do-list**
-**npm install --save react@16.8.6**
-**npm install --save react-dom@16.8.6**
+1. npm init react-app reactjs-to-do-list --scripts-version 3.0.0
+2. cd reactjs-to-do-list
+3. npm install --save react@16.8.6
+4. npm install --save react-dom@16.8.6
 ***
 
 Source : https://stackoverflow.com/a/61315046
