@@ -12,10 +12,9 @@ class App extends React.Component{
             <section id="todo">
                 <BrowserRouter>
                     <Routes>
-                        {/* <Route path="/add-task" component={AddTask} /> */}
+
                         <Route path='/add-task' element={<AddTask/>} />
-                        {/* <Route path="/" component={ToDoList} /> */}
-                        <Route path='/' element={<ToDoList/>} />
+                        <Route path='/:filter' element={<ToDoList/>} />
                         
                     </Routes>
                     <NavBar />
